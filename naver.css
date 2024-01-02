@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#wrap {
+background-color: beige;
+}
+#header {
+width: 1280px;
+height: 268px;
+background-color: gold;
+}
+#container {
+width: 1280px;
+height: 2579px;
+background-color: orange;
+}
+#footer {
+width: 1280px;
+height: 460px;
+background-color: orangered;
+}
+.mx-auto {
+    margin: 0 auto;
+}
