@@ -1,0 +1,41 @@
+@charset "utf-8";
+*{
+    margin: 0;  /* (바깥)여백 */
+    paddinf: 0; /* (안) 여백 */
+}
+/* css 선택자 : html 명령어를 선택해서 스타일을 정의하는 css문법
+1. 전체선택자 : *
+2. 태그 선택자 : p 또는 h1 과 같은 명령어 <p>..</p>에서 p가 선택자
+3. 클래스 선택자 : .어떤 이름   (예: .my-photo  or   .art   ...등등)
+4. 아이디 선택자 : #어떤 이름   (예: #very-important  or  #exciting ..등등)
+5. 그룹 선택자 : ,  (콤마)
+ ※ 5가지 외에 더 많이 있음 ==> 그래서 개발자가 어려워 함..
+*/
+
+/*태그선택자*/
+.title {
+    color: red;
+    background-color: gold;
+    height: 200px;
+}
+
+.first_p {
+background-color: peru;
+display: inline;
+height: 200px;
+}
+.second_p {
+background-color: coral;
+height: 200px;
+display: inline-block;
+}
+.word {
+background-color: gold;
+color: black;
+}
+
+/* 2. 태그선택자*/
+div {
+    background-color: gold;
+    margin: 1rem
+}
